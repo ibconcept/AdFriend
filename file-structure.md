@@ -4,7 +4,7 @@ AdFriend/
 │── background.js
 │── popup.html
 │── popup.js
-│── popup.css
+│── styles.css
 │── icons/
 │   ├── icon16.png
 │   ├── icon48.png
