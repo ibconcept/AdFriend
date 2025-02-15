@@ -5,13 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AdFriend</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="description" content="Boost your productivity and learning with this Chrome extension. Remove distractions with ad-blocking, stay on track with reminders, find inspiration, and discover new facts daily.">
+  <meta name="keywords" content="chrome extension, ad blocker, reminder, inspiration, continuous learning, random fact, productivity, learning, focus, motivation, daily fact">
+  <meta name="author" content="Your Name/Your Organization">
+  <meta name="og:title" content="Inspiration & Learning Extension">
+  <meta name="og:description" content="Block ads, set reminders, get inspired, and learn something new every day.">
+  <meta name="og:image" content="path/to/your/extension_icon.png">
+  <meta name="og:url" content="https://adfriend.xyz/extension">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Inspiration & Learning Extension">
+  <meta name="twitter:description" content="Block ads, set reminders, get inspired, and learn something new every day.">
+  <meta name="twitter:image" content="path/to/your/extension_icon.png">
 </head>
+
 <body>
   <div class="popup-container">
-    <h2>AdFriend</h2>
+    <img src="favicon.ico" style="border-radius: 3cap; width: 2.9em; "  alt="logo">
+    <h2>AdFriend  </h2>
     <p>Ads are being replaced with positivity!</p>
-    <button id="refresh">Refresh Ads</button>
+    <h3>Select your content preference:</h3>
+    <div class="options">
+      <label>
+        <input type="radio" name="adContent" value="reminder"> Reminder
+      </label>
+      <label>
+        <input type="radio" name="adContent" value="inspiration"> Inspiration
+      </label>
+      <label>
+        <input type="radio" name="adContent" value="continuous-learning"> Continuous Learning
+      </label>
+      <label>
+        <input type="radio" name="adContent" value="random"> Random
+      </label>
+    </div>
+    <button id="saveBtn">Save Preference</button>
   </div>
+
+
+  <footer >
+    <p>&copy; 2023 Your Company Name. Powered by <a href="https://alxafrica.com">ALX</a>.</p>
+  </footer>
+
   <script src="popup.js"></script>
+
+
+
+  
 </body>
+
 </html>
